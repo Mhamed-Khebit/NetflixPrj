@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nmovies</title>
+    <link rel="icon" href="images/logoN.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+
+    <!-- Nav  -->
+    <nav>
+        <div class="logoImgDiv" >
+            <img class="logoImg" src="images/logoNetflix.png" loading="eager">
+        </div>
+
+        <div class="tarnsSingDiv" >
+            <div class="translateDiv" >
+                <button id="translateBtn" class="translateBtn" >
+                    <img class="iconTransImg" src="images/iconTranslate.png" loading="eager">
+                    <div id="iconInner">
+                        <i  id="downIcon" class="fa-solid fa-caret-down"></i>  
+                    </div>     
+                </button>
+                <ul id="ulTranslate" >
+                    <li><a class="translateLangA" href="fr.html">Français</a></li>
+                    <li><a class="translateLangA" href="index.html">English</a></li>
+                </ul>
+            </div>
+
+            <div class="singBtnDiv" >
+                <button class="singBtn" >Sing In</button>
+            </div>
+        </div>
+    </nav>
+    
+
+
+
+
+
+    <!-- slider -->
+     <div id="sliderDiv" class="sliderDiv" >
+        <img class="imgSlides" src="images/backg0.png" loading="eager">
+     </div>
+
+
+
+     <!-- slide Content -->
+      <form data-aos="fade-up" data-aos-duration="1300" data-aos-once="false"  action="https://getform.io/f/allyzmqa" method="post" class="slideContent" onsubmit="setTimeout(clearInputContent, 200)" >
+        <h1  class="titleContent" >Unlimited movies, TV shows, and more</h1>
+        <p class="textone" >Starts at 4$. Cancel anytime.</p>
+        <p class="secondText" >Ready to watch? Enter your email to create or <br>restart your membership.</p>
+        <input id="inputContent" class="inputContent" type="email" placeholder="Email address" name="Email from Prj Netflix" required>
+        <br>
+        <button  class="btnContent" >Get Started &nbsp;  <i class="fa-solid fa-chevron-right"></i></button>
+      </form>
+
+
+      <!-- div Films slide -->
+       <div id="gallery-wrap-Div" >
+       <h2 data-aos="fade-right" data-aos-duration="900" data-aos-once="false" class="filmSlideTitle" >Trending Now</h2>
+       <div  id="gallery-wrap" class="gallery-wrap" >
+        <i id="backBtn" class="fa-solid fa-chevron-left iconLeft"></i>
+
+        <div id="gallery" class="gallery">
+            <div class="allimgsDiv" >
+                <span><img class="imgs" src="images/imgFilm1.jpg" loading="lazy"></span>
+                <span><img class="imgs" src="images/imgFilm2.jpg" loading="lazy"></span>
+                <span><img class="imgs" src="images/imgFilm3.jpg" loading="lazy"></span>
+                <span><img class="imgs" src="images/imgFilm4.jpg" loading="lazy"></span>
+                <span><img class="imgs" src="images/imgFilm0.jpg" loading="lazy"></span>
+                <span><img class="imgs" src="images/imgFilm6.jpg" loading="lazy"></span>
+                <span><img class="imgs" src="images/imgFilm7.jpg" loading="lazy"></span>
+                <span><img class="imgs" src="images/imgFilm8.jpg" loading="lazy"></span>
+                <span><img class="imgs" src="images/imgFilm9.jpg" loading="lazy"></span>
+    
+            </div>
+           </div>
+
+        <i id="nextBtn" class="fa-solid fa-chevron-right iconRight"></i>  
+       </div>
+       </div>
+       
+
+
+
+
+
+
+        <!-- Boxes Section -->
+<div class="divBox">
+    <h2 data-aos="fade-right" data-aos-duration="900" data-aos-once="false" class="bigTitleBox">More Reasons to Join</h2>
+
+    <div class="alldivBoxs">
+        <!-- First Column -->
+        <div class="divBoxPrt1">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" class="box">
+                <h2 class="titlsBoxs">Enjoy on your TV</h2>
+                <p class="paragBoxs">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                <img class="iconsBoxs" src="images/iconTv.png" loading="lazy">
+            </div> <!-- إغلاق div -->
+
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" class="box">
+                <h2 class="titlsBoxs">Download your shows to watch offline</h2>
+                <p class="paragBoxs">Save your favorites easily and always have something to watch.</p>
+                <img class="iconsBoxs" src="images/iconDownl.png" loading="lazy">
+            </div> <!-- إغلاق div -->
+        </div> <!-- إغلاق divBoxPrt1 -->
+
+        <!-- Second Column -->
+        <div class="divBoxPrt2">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" class="box">
+                <h2 class="titlsBoxs">Watch everywhere</h2>
+                <p class="paragBoxs">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                <img class="iconsBoxs" src="images/iconWatch.png" loading="lazy">
+            </div> <!-- إغلاق div -->
+
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" class="box">
+                <h2 class="titlsBoxs">Create profiles for kids</h2>
+                <p class="paragBoxs">Send kids on adventures with their favorite characters in a space made just for them — free with your membership.</p>
+                <img class="iconsBoxs" src="images/iconKids.png" loading="lazy">
+            </div> <!-- إغلاق div -->
+        </div> <!-- إغلاق divBoxPrt2 -->
+    </div> <!-- إغلاق alldivBoxs -->
+</div> <!-- إغلاق divBox -->
+
+       
+
+
+
+
+
+
+
+
+        <!-- FAQs Section -->
+         <div>
+            <h2 data-aos="fade-right" data-aos-duration="900" data-aos-once="false" class="faqsBigTitle" >Frequently Asked Questions</h2>
+            <div class="faqsDiv" >
+
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" class="faqsBoxDiv" >
+                    <div id="faqsBoxDiv1" class="TitleAnIconDiv" >
+                        <h2 class="faqsTitls" >What is Netflix?</h2>
+                        <div id="iconPlusClick1" ><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                    <div id="paragFaqs1" class="paragFaqs" >
+                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.<br>
+                            You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+                        </p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" class="faqsBoxDiv" >
+                    <div id="faqsBoxDiv2" class="TitleAnIconDiv" >
+                        <h2 class="faqsTitls" >How much does Netflix cost?</h2>
+                        <div id="iconPlusClick2" ><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                    <div id="paragFaqs2" class="paragFaqs" >
+                        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from 4$ to 10$ a month. No extra costs, no contracts.
+                        </p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" class="faqsBoxDiv" >
+                    <div id="faqsBoxDiv3" class="TitleAnIconDiv" >
+                        <h2 class="faqsTitls" >Where can I watch?</h2>
+                        <div id="iconPlusClick3" ><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                    <div id="paragFaqs3" class="paragFaqs" >
+                        <p>Where can I watch?
+                            Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. <br>
+                            You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                            </p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" class="faqsBoxDiv" >
+                    <div id="faqsBoxDiv4" class="TitleAnIconDiv" >
+                        <h2 class="faqsTitls" >How do I cancel?</h2>
+                        <div id="iconPlusClick4" ><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                    <div id="paragFaqs4" class="paragFaqs" >
+                        <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                        </p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" class="faqsBoxDiv" >
+                    <div id="faqsBoxDiv5" class="TitleAnIconDiv" >
+                        <h2 class="faqsTitls" >What can I watch on Netflix?</h2>
+                        <div id="iconPlusClick5" ><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                    <div id="paragFaqs5" class="paragFaqs" >
+                        <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                        </p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="false" class="faqsBoxDiv" >
+                    <div id="faqsBoxDiv6" class="TitleAnIconDiv" >
+                        <h2 class="faqsTitls" >Is Netflix good for kids?</h2>
+                        <div id="iconPlusClick6" ><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                    <div id="paragFaqs6" class="paragFaqs" >
+                        <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space. <br>
+                            Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+                        </p>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+         <form data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" action="https://getform.io/f/allyzmqa" method="post"  class="contactDiv" onsubmit="setTimeout(clearInputContentTwo, 200)">
+            <p class="TextContactt" >Ready to watch? Enter your email to create or <br>restart your membership.</p>
+        <input id="inputContentTwo" class="inputContent" type="email" placeholder="Email address" name="Email from Prj Netflix" required >
+        <br>
+        <button class="btnContent btnContactt" >Get Started &nbsp;  <i class="fa-solid fa-chevron-right"></i></button>
+         </form>
+
+
+
+
+
+
+
+
+
+
+
+
+         <!-- footer -->
+          <footer class="footerDiv" >
+            <h3 class="footerTitle" >Copyright © 2025 Developed by <a class="name" href="">Mhamed Kbt</a></h3>
+          </footer>
+
+
+       
+       
+       
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+    <script src="script.js"></script>
+</body>
+</html>
